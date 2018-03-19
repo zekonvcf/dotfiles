@@ -1,0 +1,27 @@
+#
+# .screenrc #
+#
+
+# backticks
+backtick 1 60 60 acpi
+
+# hardstatus
+hardstatus off
+hardstatus alwayslastline 
+hardstatus string '%{= b}[ %H ][%= %{= w}%?%-Lw%?%{c}<%{W}%n*%f%t%?(%u)%?%{c}>%{w}%?%+Lw%?%?%= %{b}][ %1` ][ %d/%m %c ]'
+
+# welcome off
+startup_message off
+
+# scrollback
+defscrollback 5000
+
+# residual editor text fix
+altscreen on
+
+# urxvt 256 colours
+term rxvt-unicode-256color
+
+# keybinds
+bindkey -k k1 prev
+bindkey -k k2 next
